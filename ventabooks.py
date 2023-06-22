@@ -1,8 +1,7 @@
 import funciones as f
 while True:
     f.limpiarpantalla()
-    f.printv("SISTEMA VENTABOOKS")
-    f.printv("------------------")
+    f.titulo("SISTEMA VENTABOOKS")
     print("1)Guardar")
     print("2)Buscar")
     print("3)Certificados")
