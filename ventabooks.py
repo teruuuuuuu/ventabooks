@@ -17,5 +17,14 @@ while True:
         f.printv("Buscar")
     elif opcion==3:
         f.printv("Certificados")
+        print("1)Certificado criticas")
+        print("2)Certificado detalle ventas")
+        cert=int(input("Seleccione: "))
+        if cert==1:
+            f.printv("Certificado de criticas")
+        elif cert==2:
+            f.printv("Certificado detalle de ventas")
+        else:
+            f.printr("Opcion ni valida")
     else:
         f.printr("No valido")
